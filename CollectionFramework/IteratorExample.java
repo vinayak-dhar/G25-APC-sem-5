@@ -1,7 +1,6 @@
 package CollectionFramework;
 
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.*;
 
 public class IteratorExample {
     public static void main(String[] args) {
@@ -23,6 +22,13 @@ public class IteratorExample {
         }
 
         System.out.println(al);
+
+
+        Set<String> set = new TreeSet<>(Collections.reverseOrder());
+        set.add("Zebra");
+        set.add("Apple");
+        set.add("Mango");
+        System.out.println(set.iterator().next());
     }
 }
 
