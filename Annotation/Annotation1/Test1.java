@@ -1,4 +1,4 @@
-package Annotation1;
+package Annotation.Annotation1;
 
 import java.util.ArrayList;
 
