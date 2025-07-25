@@ -1,7 +1,6 @@
 package CollectionFramework;
 
 import java.util.Comparator;
-import java.util.Objects;
 import java.util.TreeSet;
 
 class MyComparator implements Comparator {
